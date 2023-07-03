@@ -1,4 +1,4 @@
-<image src="https://kartinkin.net/pics/uploads/posts/2022-09/1662633280_2-kartinkin-net-p-devushka-s-knigoi-risunok-instagram-3.jpg" alt="avatar">
+<image src="https://kartinkin.net/pics/uploads/posts/2022-09/1662633280_2-kartinkin-net-p-devushka-s-knigoi-risunok-instagram-3.jpg/800/600" alt="avatar">
 #Kseniya Tverdaya
 
 
