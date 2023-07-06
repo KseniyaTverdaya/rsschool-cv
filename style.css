@@ -45,7 +45,7 @@ body {
 }
 .my-photo {
   margin-top: -40px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 .about-me {
   margin-bottom: 40px;
@@ -71,9 +71,9 @@ body {
 }
 
 .sidebar-content {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: 40px;
-  padding-right: 80px;
+  padding-right: 60px;
 }
 
 .sidebar-title {
@@ -85,7 +85,7 @@ body {
   margin-bottom: 8px;
 }
 .contacts-container {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .contacts-item {
@@ -264,4 +264,15 @@ body {
 .footer-list:hover,
 .footer-list:focus {
   color: #3665bd;
+}
+.code {
+  color: #000000;
+  font-size: 16px;
+}
+.code-item {
+  list-style: disc;
+}
+.code-list {
+  padding-left: 22px;
+  line-height: calc(24 / 16);
 }
