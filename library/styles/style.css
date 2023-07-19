@@ -1,0 +1,233 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v12-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/forum-v16-latin-regular.woff2') format('woff2');
+}
+
+:root {
+  --color-primary: #000000;
+  --color-secondary: #0c0c0e;
+  --color-inherit: #ffffff;
+  --color-action: #bb945f;
+  --color-placeholder: #8e8e8e;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.header {
+  background: var(--color-secondary);
+  display: flex;
+}
+
+.logo {
+  color: var(--color-inherit);
+  font-family: Forum;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+  padding: 20px;
+  margin: 0;
+}
+.headerList {
+  color: var(--color-inherit);
+}
+.list {
+  list-style: none;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 30px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  padding-left: 454px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  margin: 0;
+}
+.navList {
+  text-decoration: none;
+}
+
+.iconProfile {
+  margin: 0;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  padding-right: 20px;
+}
+
+.welcome {
+  height: 600px;
+  background: url('/images/Welcome.png'), lightgray 50% / cover no-repeat;
+}
+.welcomeTitle {
+  color: var(--color-inherit);
+  background-color: var(--color-primary);
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: flex;
+  width: 520px;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px 40px;
+}
+
+.welcomeTitleBox {
+  padding-top: 220px;
+  padding-bottom: 160px;
+  padding-right: 840px;
+}
+.about {
+}
+.aboutTitle {
+}
+.titleLine {
+}
+.abotInfo {
+}
+.carousel {
+}
+.favorites {
+}
+.favoritesTitle {
+}
+.favoritesItems {
+}
+.favoriteItem {
+}
+.staffPicks {
+}
+.favoritesItemTitle {
+}
+.favoriteItemText {
+}
+.button {
+}
+.favoriteItemImage {
+}
+.own {
+}
+.coffeeShop {
+}
+.coffeeShopTitle {
+}
+.coffeeShopText {
+}
+.coffeeShopMenu {
+}
+.coffeeShopDrinks {
+}
+.coffeeShopDrink {
+}
+.coffeeDrink {
+}
+.coffeePrice {
+}
+.coffeeShopDesserts {
+}
+.coffeeShopDessert {
+}
+.dessert {
+}
+.dessertPrice {
+}
+.contacts {
+}
+.contactsTitle {
+}
+.contactsInfo {
+}
+.contactsPhones {
+}
+.contactTitle {
+}
+.contactPhone {
+}
+.contactNameTitle {
+}
+.contactName {
+}
+.contactsMap {
+}
+.libraryCard {
+}
+.libraryCardTitle {
+}
+.findCard {
+}
+.findCardTitle {
+}
+.findCardForm {
+}
+.formTitle {
+}
+.formInput {
+}
+.formButton {
+}
+.getCard {
+}
+.getCardTitle {
+}
+.getCardText {
+}
+.getCardButton {
+}
+.footer {
+}
+.footerInfo {
+}
+.addressInfo {
+}
+.addressLink {
+}
+.timeInfo {
+}
+.connectingInfo {
+}
+.socialMedias {
+}
+.socialMedia {
+}
+.footerLinks {
+}
+.year {
+}
+.footerLink {
+}
