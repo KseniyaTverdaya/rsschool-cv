@@ -39,9 +39,20 @@
                shop
                inside</p>
             <div class="carousel">
-               <img src="images/image_1.jpg" alt="first foto">
-               <img src="images/image_2.jpg" alt="second foto">
-               <img src="images/image_3.jpg" alt="third foto">
+               <img src="images/image_1.jpg" alt="first foto" class="carouselItem">
+               <img src="images/image_2.jpg" alt="second foto" class="carouselItem">
+               <img src="images/image_3.jpg" alt="third foto" class="carouselItem">
+            </div>
+            <div class="carouselPaginations">
+               <div class="carouselPagination">
+                  <div class="carouselPaginationItem"></div>
+               </div>
+               <div class="carouselPagination">
+                  <div class="carouselPaginationItem"></div>
+               </div>
+               <div class="carouselPagination">
+                  <div class="carouselPaginationItem"></div>
+               </div>
             </div>
          </section>
          <!-- Favorites -->
@@ -49,12 +60,16 @@
             <div class="container">
                <h2 class="favoritesTitle">Favorites</h2>
                <hr class="titleLine">
-               <p>Pick favorites of season</p>
-               <div>
-                  <label><input type="radio" name="favoriteSeason" value="Winter" checked="checked">Winter</label>
-                  <label><input type="radio" name="favoriteSeason" value="Spring">Spring</label>
-                  <label><input type="radio" name="favoriteSeason" value="Summer">Summer</label>
-                  <label><input type="radio" name="favoriteSeason" value="Autumn">Autumn</label>
+               <p class="favoriteChoice">Pick favorites of season</p>
+               <div class="favoriteSeasons">
+                  <input type="radio" name="favoriteSeason" value="Winter" checked id="season_1"><label for="season_1"
+                     class="season seasonChecked">Winter</label>
+                  <input type="radio" name="favoriteSeason" value="Spring" id="season_2"><label for="season_2"
+                     class="season">Spring</label>
+                  <input type="radio" name="favoriteSeason" value="Summer" id="season_3"><label for="season_3"
+                     class="season">Summer</label>
+                  <input type="radio" name="favoriteSeason" value="Autumn" id="season_4"><label for="season_4"
+                     class="season">Autumn</label>
                </div>
                <div class="favoritesItems">
                   <div class="favoriteItem">

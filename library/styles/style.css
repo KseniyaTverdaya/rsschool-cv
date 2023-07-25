@@ -35,6 +35,10 @@ body {
   margin: 0 auto;
 }
 
+* {
+  margin: 0 auto;
+}
+
 .container {
   width: 1440px;
   box-sizing: border-box;
@@ -99,7 +103,6 @@ body {
   line-height: 50px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  margin: 0 auto;
   display: flex;
   width: 520px;
   height: 150px;
@@ -114,22 +117,116 @@ body {
   padding-right: 840px;
 }
 .about {
+  height: 837px;
 }
 .aboutTitle {
+  font-family: Forum;
+  color: var(--color-secondary);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding: 20px 667px;
 }
 .titleLine {
+  width: 50px;
+  height: 1px;
+  border: none;
+  background-color: var(--color-secondary);
 }
 .abotInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  color: var(--color-primary);
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 .carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.carouselItem {
+  margin: 0;
+}
+.carouselPaginations {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 40px 686px;
+}
+.carouselPagination {
+  width: 26px;
+  height: 26px;
+}
+.carouselPaginationItem {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--color-action);
+  margin: 0;
 }
 .favorites {
+  height: 1439px;
 }
 .favoritesTitle {
+  color: var(--color-secondary);
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  display: block;
+  text-align: center;
+  margin: 20px 640px;
+}
+.favoriteChoice {
+  color: var(--color-primary);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 1186px 20px 20px;
+}
+.favoriteSeasons {
+  display: inline-flex;
+  align-items: flex-start;
+
+  margin: 0 720px 40px 20px;
+}
+.season {
+  color: var(--color-primary);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 90px;
+}
+.seasonChecked {
+  font-weight: 700;
 }
 .favoritesItems {
+  height: 1150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .favoriteItem {
+  border: 1px solid var(--color-primary);
+  background: var(--color-inherit);
+  width: 550px;
+  height: 555px;
+  margin: 0;
 }
 .staffPicks {
 }
